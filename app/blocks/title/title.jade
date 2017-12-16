@@ -1,0 +1,8 @@
+include ../frame/frame
+
+mixin title(srcImg, text)
+	+b.title&attributes(attributes)
+		+frame(srcImg)
+		+e.text
+			h3= text
+

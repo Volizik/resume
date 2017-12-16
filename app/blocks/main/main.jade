@@ -1,0 +1,27 @@
+include ../col/col
+include ../title/title
+include ../article/article
+
+mixin main()
+	+b('main').main&attributes(attributes)
+		.container
+			+col()
+				+article()
+					+title("assets/images/skills.png", "Skills")
+					+e.body
+
+				+article()
+					+title("assets/images/languages.png", "Languages")
+				+article()
+					+title("assets/images/contact-me.png", "Contact me")
+				+article()
+					+title("assets/images/referenced.png", "Referenced")
+			+col()
+				+article()
+					+title("assets/images/experience.png", "Experience")
+				+article()
+					+title("assets/images/education.png", "Education")
+				+article()
+					+title("assets/images/award.png", "Award")
+
+
