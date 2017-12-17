@@ -1,0 +1,8 @@
+include ../frame/frame
+
+mixin portfolio(data)
+	+b.portfolio&attributes(attributes)
+		each elem in data
+			+e('a').item(href='#{elem.href}')
+				img(src='#{elem.image}')
+				span follow

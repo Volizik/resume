@@ -1,0 +1,6 @@
+mixin contact-me(data)
+	+b.contact-me&attributes(attributes)
+		each item in data
+			+e.row
+				img(src='#{item.img}' alt='#{item.text}')
+				span #{item.text}

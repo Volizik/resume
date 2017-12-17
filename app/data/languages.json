@@ -1,0 +1,20 @@
+[
+  {
+    "language": "english",
+    "speaking": "A",
+    "reading": "G",
+    "writing": "E"
+  },
+  {
+    "language": "russian",
+    "speaking": "G",
+    "reading": "E",
+    "writing": "E"
+  },
+  {
+    "language": "ukrainian",
+    "speaking": "G",
+    "reading": "G",
+    "writing": "G"
+  }
+]

@@ -1,0 +1,17 @@
+mixin languages(data)
+	+b('table').languages&attributes(attributes)
+		thead
+			each val in ['', 'speaking', 'reading', 'writing']
+				th= val
+		tbody
+			each elem in data
+				tr
+					td #{elem.language}
+					td #{elem.speaking}
+					td #{elem.reading}
+					td #{elem.writing}
+			tr
+				td
+				td A-average
+				td G-good
+				td E-excellent

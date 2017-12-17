@@ -1,0 +1,30 @@
+.portfolio
+	display flex
+	flex-wrap wrap
+	&__item
+		position relative
+		size(50%)
+		padding 10px
+		display block
+		&:hover
+			span
+				opacity 1
+		img
+			size(100%)
+			object-fit cover
+		span
+			position absolute
+			top 0
+			left 0
+			size(100%)
+			display flex
+			justify-content center
+			align-items center
+			font-size 30px
+			font-weight 700
+			text-transform uppercase
+			color #fff
+			background-color color-main
+			filter opacity(.8)
+			opacity 0
+			transition .3s

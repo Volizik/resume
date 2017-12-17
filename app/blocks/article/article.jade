@@ -1,3 +1,7 @@
-mixin article()
+include ../frame/frame
+
+mixin article(src, href)
 	+b('article').article&attributes(attributes)
-		block
+		a(href= href)
+			+frame(src)
+			+e('span').review Follow

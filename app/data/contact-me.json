@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Phone",
+    "img": "assets/images/icon-phone.png"
+  },
+  {
+    "text": "Email",
+    "img": "assets/images/icon-mail.png"
+  },
+  {
+    "text": "VK",
+    "img": "assets/images/icon-vk.png"
+  },
+  {
+    "text": "GitHub",
+    "img": "assets/images/icon-git.png"
+  }
+]
