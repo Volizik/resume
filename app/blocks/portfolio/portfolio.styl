@@ -3,23 +3,26 @@
 	flex-wrap wrap
 	&__item
 		position relative
-		size(50%)
+		size(33.33%)
 		padding 10px
 		display block
+		overflow hidden
+		border-radius 50px 0 50px 0
 		&:hover
 			span
 				opacity 1
 		img
 			size(100%)
 			object-fit cover
+			border-radius 50px 0 50px 0
 		span
+			display flex
+			justify-content center
+			align-items center
 			position absolute
 			top 0
 			left 0
 			size(100%)
-			display flex
-			justify-content center
-			align-items center
 			font-size 30px
 			font-weight 700
 			text-transform uppercase
@@ -27,4 +30,4 @@
 			background-color color-main
 			filter opacity(.8)
 			opacity 0
-			transition .3s
+			transition .2s
