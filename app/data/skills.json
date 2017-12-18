@@ -1,22 +1,35 @@
 [
   {
-    "name": "MS Office",
-    "value": "70%"
+    "name": "HTML5",
+    "value": "100%"
   },
   {
-    "name": "MS Project",
-    "value": "50%"
+    "name": "Jade",
+    "value": "80%"
   },
   {
-    "name": "Internet",
-    "value": "90%"
+    "name": "CSS3",
+    "value": "100%"
   },
   {
-    "name": "Photoshop",
+    "name": "Sass/Stylus/Less",
+    "value": "80%"
+  },
+  {
+    "name": "jQuery",
+    "value": "80%"
+  },
+  {
+    "name": "React",
     "value": "30%"
   },
   {
-    "name": "Phpstorm",
-    "value": "80%"
+    "name": "Vue",
+    "value": "40%"
+  },
+  {
+    "name": "Photoshop",
+    "value": "70%"
   }
+
 ]

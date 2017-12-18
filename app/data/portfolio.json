@@ -1,34 +1,22 @@
 [
   {
     "image": "assets/images/site1.png",
-    "href": "index.html"
+    "href": "cream"
   },
   {
-    "image": "assets/images/site1.png",
-    "href": "index.html"
+    "image": "assets/images/site2.png",
+    "href": "crears"
   },
   {
-    "image": "assets/images/site1.png",
-    "href": "index.html"
+    "image": "assets/images/site3.png",
+    "href": "tairova"
   },
   {
-    "image": "assets/images/site1.png",
-    "href": "index.html"
+    "image": "assets/images/site4.png",
+    "href": "bank"
   },
   {
-    "image": "assets/images/site1.png",
-    "href": "index.html"
-  },
-  {
-    "image": "assets/images/site1.png",
-    "href": "index.html"
-  },
-  {
-    "image": "assets/images/site1.png",
-    "href": "index.html"
-  },
-  {
-    "image": "assets/images/site1.png",
-    "href": "index.html"
+    "image": "assets/images/site5.png",
+    "href": "front_helper"
   }
 ]
