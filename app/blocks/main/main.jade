@@ -5,9 +5,11 @@ include ../skills/skills
 include ../languages/languages
 include ../contact-me/contact-me
 include ../portfolio/portfolio
+include ../menu-btn/menu-btn
 
 mixin main()
 	+b('main').main&attributes(attributes)
+		+menu-btn()
 		.container
 			+col()
 				+section()
